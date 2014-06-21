@@ -19,6 +19,6 @@ drone.move(roll, pitch, gaz, yaw) #Do just one move
 drone.moves(roll, pitch, gaz, yaw, second) #Move for second(Variable)
 ```
 `roll: left/right tilt [-1..1] (negative: left, positive: right)`                 
-`pitch: forwards/backwards tilt [-1..1] (negative: frontward, positive: backward)`
+`pitch: forwards/backwards tilt [-1..1] (negative: frontward, positive: backward)`                  
 `gaz: vertical speed [-1..1] (negative: down, positive: up)`                      
 `yaw: angular speed [-1..1] (negative: spin left, positive: spin right)` 
