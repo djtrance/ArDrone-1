@@ -4,6 +4,10 @@ ArDrone
 ### References 
 Reference for the ([ArDrone 1.0](http://en.wikipedia.org/wiki/Parrot_AR.Drone)).
 
+###Wifi network and connection
+
+The ArDrone can be controlled from any client device supporting the Wifi ad-hoc mode. The ArDrone creates a WIFI network with an ESSID usually called adrone_xxx and self allocates a free, odd IP address. The user connects the client device to this ESSID network.
+
 ###class
 
 ######ArDroneController 
@@ -42,8 +46,8 @@ import ArDroneVideo
 vdrone = ArDroneVideo.ArVideo()
 
 vdrone.connect() #Connect socket with Drone
-cdrone.disconnect()
+cdrone.disconnect() #Disconnect socket with Drone
 
 vdrone.video(size) #Initialize video streaming, for original size give 0, to double the size give 1
-vdrone.capture #Save the photo, for original size give 0, to double the size give 1
+vdrone.capture(size) #Save the photo, for original size give 0, to double the size give 1
 ```
