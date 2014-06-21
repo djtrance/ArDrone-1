@@ -6,7 +6,7 @@ Reference for the ([ArDrone 1.0](http://en.wikipedia.org/wiki/Parrot_AR.Drone)).
 
 ###Wifi network and connection
 
-The ArDrone can be controlled from any client device supporting the Wifi ad-hoc mode. The ArDrone creates a WIFI network with an ESSID usually called adrone_xxx and self allocates a free, odd IP address. The user connects the client device to this ESSID network.
+The ArDrone can be controlled from any client device supporting the Wifi ad-hoc mode. The ArDrone creates a WIFI network with an ESSID usually called adrone_xxx and self allocates a free, odd IP address. Then connect the client device to this ESSID network.
 
 ###class
 
